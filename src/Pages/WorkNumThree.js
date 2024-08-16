@@ -31,7 +31,7 @@ const barChartsParams = {
     },
   },
   height: 300,
-  width: 1050,
+  width: 850,
 };
 
 
