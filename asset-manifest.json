@@ -1,16 +1,43 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/Portfolio/static/js/main.3383545a.js",
-    "static/js/453.acca0757.chunk.js": "/Portfolio/static/js/453.acca0757.chunk.js",
-    "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/Portfolio/static/css/main.21309343.css",
+    "main.js": "/Portfolio/static/js/main.76cc927f.js",
+    "static/js/453.41811d64.chunk.js": "/Portfolio/static/js/453.41811d64.chunk.js",
+    "static/media/bg3.jpg": "/Portfolio/static/media/bg3.8c84f4103cef78b40c3b.jpg",
+    "static/media/bg1.jpg": "/Portfolio/static/media/bg1.bb23731aec8061c93e06.jpg",
+    "static/media/bg5.jpg": "/Portfolio/static/media/bg5.ebafc510c6fbdfe53698.jpg",
+    "static/media/bg6.jpg": "/Portfolio/static/media/bg6.fb7265173f6c947cced3.jpg",
+    "static/media/plant1.png": "/Portfolio/static/media/plant1.419a3d58002a3998de74.png",
+    "static/media/bg4.jpg": "/Portfolio/static/media/bg4.a688312eda0b42378fb2.jpg",
+    "static/media/bg2.jpg": "/Portfolio/static/media/bg2.f08082594762a7cc1391.jpg",
+    "static/media/plant2.png": "/Portfolio/static/media/plant2.acb8ee779c071d9994aa.png",
+    "static/media/plant3.png": "/Portfolio/static/media/plant3.0f8ab03e536d2bac1389.png",
+    "static/media/animal2.png": "/Portfolio/static/media/animal2.d60580e72fc306be0305.png",
+    "static/media/animal1.png": "/Portfolio/static/media/animal1.5eae4eab518b8754daf4.png",
+    "static/media/animal3.png": "/Portfolio/static/media/animal3.c7f87b10fb0cec734e68.png",
+    "static/media/bg7.jpg": "/Portfolio/static/media/bg7.66833a98a4bc467137de.jpg",
+    "static/media/screenshot.png": "/Portfolio/static/media/screenshot.9c24a70c2fd7f02b891d.png",
+    "static/media/Poster.png": "/Portfolio/static/media/Poster.f12d1f328d73557b6547.png",
+    "static/media/background2.png": "/Portfolio/static/media/background2.c9ec8a93d5bbd0d7ded0.png",
+    "static/media/award-2018.jpeg": "/Portfolio/static/media/award-2018.b8e25b0a5b5e1f653cf3.jpeg",
+    "static/media/SOE-LOGO-whitebg.png": "/Portfolio/static/media/SOE-LOGO-whitebg.f0f0e2699a98af75f154.png",
+    "static/media/2017.jpeg": "/Portfolio/static/media/2017.9013811871b301b998a5.jpeg",
+    "static/media/award-2017.jpeg": "/Portfolio/static/media/award-2017.232c3408a664bb4d2cac.jpeg",
+    "static/media/sme-awards.jpg": "/Portfolio/static/media/sme-awards.c159f4b6a26f6d5f881d.jpg",
+    "static/media/wealth-brief-2016.jpg": "/Portfolio/static/media/wealth-brief-2016.4342ca4b8f7e399bfba6.jpg",
+    "static/media/bread-screenshot.jpg": "/Portfolio/static/media/bread-screenshot.272d732637a0b81b3e4f.jpg",
+    "static/media/private-banking.png": "/Portfolio/static/media/private-banking.3f9e1f36cd858e491b26.png",
+    "static/media/asia-risk-awards-2012.jpg": "/Portfolio/static/media/asia-risk-awards-2012.3aea26dce3b2826a713d.jpg",
+    "static/media/wealth-brief-2015.jpg": "/Portfolio/static/media/wealth-brief-2015.aee00e4e70b6db2f1b9c.jpg",
+    "static/media/srp-whitebg.png": "/Portfolio/static/media/srp-whitebg.118bc23534ce1563e3fc.png",
+    "static/media/red-herring.jpg": "/Portfolio/static/media/red-herring.9f05dc0589aeff9e7ff1.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.f855e6bc.css.map": "/Portfolio/static/css/main.f855e6bc.css.map",
-    "main.3383545a.js.map": "/Portfolio/static/js/main.3383545a.js.map",
-    "453.acca0757.chunk.js.map": "/Portfolio/static/js/453.acca0757.chunk.js.map"
+    "main.21309343.css.map": "/Portfolio/static/css/main.21309343.css.map",
+    "main.76cc927f.js.map": "/Portfolio/static/js/main.76cc927f.js.map",
+    "453.41811d64.chunk.js.map": "/Portfolio/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.3383545a.js"
+    "static/css/main.21309343.css",
+    "static/js/main.76cc927f.js"
   ]
 }
