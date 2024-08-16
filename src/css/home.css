@@ -1,0 +1,31 @@
+.Home {
+    text-align: center;
+    background-color: #98d1ff;
+}
+
+.Home-body {
+    text-align: center;
+    background-color: #98d1ff;
+    padding-bottom: 11%;
+}
+
+.Home-header {
+    background-color: rgb(13, 38, 58);
+    /*min-height: 5vh;*/
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: #FFF3C7;
+    padding: 20px;
+}
+
+.Home-footer {
+    background-color: #50903C;
+    /*min-height: 5vh;*/
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: #FFF3C7;
+    text-align: center;
+    margin-top: 5%;
+}
