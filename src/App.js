@@ -9,6 +9,7 @@ import Home from './Pages/Home.js';
 import WorkOne from "./Pages/WorkNumOne.js";
 import WorkTwo from "./Pages/WorkNumTwo.js";
 import WorkThree from "./Pages/WorkNumThree.js";
+import Project from "./Pages/Project.js";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
                 <Routes>
                     <Route
                         exact
-                        path="/Home"
+                        path="/Portfolio"
                         element={<Home />}
                     />
                     <Route
@@ -36,6 +37,12 @@ function App() {
                         exact
                         path="/WorkNumThree"
                         element={<WorkThree />}
+                    />
+
+<Route
+                        exact
+                        path="/Project"
+                        element={<Project/>}
                     />
                 </Routes>
             </BrowserRouter>

@@ -4,18 +4,15 @@ import { HomeCard } from '../Component/Card.jsx';
 import Navbar from '../Component/Navbar.js';
 
 
-function Home() {
+function Project() {
   return (
     <div className="Home">
       <Navbar />
       <body className="Home-body">
-        <div className='intro'>
-          <img src={require('../assets/Janice.png')} alt="profilepic"/>
-        </div>
+        
 
         <div className='Card-layout'>
           <div>
-
             <HomeCard
               imgsrc={require('../assets/screenshot.png')}
               imgalt={"test"}
@@ -23,7 +20,6 @@ function Home() {
               description={"Timeline of AGDelta's achievement"}
               location={"/WorkNumTwo"}
             />
-
           </div>
           <div>
 
@@ -57,4 +53,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Project;

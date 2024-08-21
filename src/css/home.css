@@ -1,31 +1,21 @@
 .Home {
     text-align: center;
-    background-color: #98d1ff;
+    background-color: #BAD6EB;
 }
 
 .Home-body {
     text-align: center;
-    background-color: #98d1ff;
+    background-color: #BAD6EB;
     padding-bottom: 11%;
 }
 
 .Home-header {
-    background-color: rgb(13, 38, 58);
+    background-color: #081F5C;
     /*min-height: 5vh;*/
     display: flex;
     flex-direction: column;
     font-size: calc(10px + 2vmin);
-    color: #FFF3C7;
+    color: #FFF9F0;
     padding: 20px;
 }
 
-.Home-footer {
-    background-color: #50903C;
-    /*min-height: 5vh;*/
-    display: flex;
-    flex-direction: column;
-    font-size: calc(10px + 2vmin);
-    color: #FFF3C7;
-    text-align: center;
-    margin-top: 5%;
-}
