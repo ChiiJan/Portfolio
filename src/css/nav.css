@@ -12,14 +12,13 @@ body {
 }
 
 .nav {
-    background-color: #BAD6EB;
+    background-color: #D0E3FF;
     color: #0f2743;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
-    padding: 20px 4rem;
-
+    padding: 20px 10rem;
 }
 
 .nav ul {

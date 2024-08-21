@@ -8,10 +8,10 @@ export default function Navbar() {
             </a>
             <ul>
                 <li>
-                    <a href='/about'>About</a>
+                    <a href='/Portfolio'>About</a>
                 </li>
                 <li>
-                    <a href='/resume'>Resume</a>
+                    <a href='/Portfolio'>Resume</a>
                 </li>
                 <li>
                     <a href='/Project'>Work</a>
