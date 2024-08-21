@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.21309343.css",
-    "main.js": "/Portfolio/static/js/main.76cc927f.js",
-    "static/js/453.41811d64.chunk.js": "/Portfolio/static/js/453.41811d64.chunk.js",
+    "main.css": "/Portfolio/static/css/main.4164d133.css",
+    "main.js": "/Portfolio/static/js/main.901c71c0.js",
+    "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/bg3.jpg": "/Portfolio/static/media/bg3.8c84f4103cef78b40c3b.jpg",
     "static/media/bg1.jpg": "/Portfolio/static/media/bg1.bb23731aec8061c93e06.jpg",
     "static/media/bg5.jpg": "/Portfolio/static/media/bg5.ebafc510c6fbdfe53698.jpg",
@@ -30,14 +30,15 @@
     "static/media/asia-risk-awards-2012.jpg": "/Portfolio/static/media/asia-risk-awards-2012.3aea26dce3b2826a713d.jpg",
     "static/media/wealth-brief-2015.jpg": "/Portfolio/static/media/wealth-brief-2015.aee00e4e70b6db2f1b9c.jpg",
     "static/media/srp-whitebg.png": "/Portfolio/static/media/srp-whitebg.118bc23534ce1563e3fc.png",
+    "static/media/Janice.png": "/Portfolio/static/media/Janice.e04c01e2d57f30a9c9ef.png",
     "static/media/red-herring.jpg": "/Portfolio/static/media/red-herring.9f05dc0589aeff9e7ff1.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.21309343.css.map": "/Portfolio/static/css/main.21309343.css.map",
-    "main.76cc927f.js.map": "/Portfolio/static/js/main.76cc927f.js.map",
-    "453.41811d64.chunk.js.map": "/Portfolio/static/js/453.41811d64.chunk.js.map"
+    "main.4164d133.css.map": "/Portfolio/static/css/main.4164d133.css.map",
+    "main.901c71c0.js.map": "/Portfolio/static/js/main.901c71c0.js.map",
+    "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21309343.css",
-    "static/js/main.76cc927f.js"
+    "static/css/main.4164d133.css",
+    "static/js/main.901c71c0.js"
   ]
 }
