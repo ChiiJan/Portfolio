@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4164d133.css",
-    "main.js": "/Portfolio/static/js/main.901c71c0.js",
+    "main.css": "/Portfolio/static/css/main.b7aba817.css",
+    "main.js": "/Portfolio/static/js/main.ff84874c.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/bg3.jpg": "/Portfolio/static/media/bg3.8c84f4103cef78b40c3b.jpg",
     "static/media/bg1.jpg": "/Portfolio/static/media/bg1.bb23731aec8061c93e06.jpg",
@@ -33,12 +33,12 @@
     "static/media/Janice.png": "/Portfolio/static/media/Janice.e04c01e2d57f30a9c9ef.png",
     "static/media/red-herring.jpg": "/Portfolio/static/media/red-herring.9f05dc0589aeff9e7ff1.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.4164d133.css.map": "/Portfolio/static/css/main.4164d133.css.map",
-    "main.901c71c0.js.map": "/Portfolio/static/js/main.901c71c0.js.map",
+    "main.b7aba817.css.map": "/Portfolio/static/css/main.b7aba817.css.map",
+    "main.ff84874c.js.map": "/Portfolio/static/js/main.ff84874c.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4164d133.css",
-    "static/js/main.901c71c0.js"
+    "static/css/main.b7aba817.css",
+    "static/js/main.ff84874c.js"
   ]
 }
