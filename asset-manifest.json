@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b7aba817.css",
-    "main.js": "/Portfolio/static/js/main.ff84874c.js",
+    "main.css": "/Portfolio/static/css/main.72fc3842.css",
+    "main.js": "/Portfolio/static/js/main.38c94acc.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/bg3.jpg": "/Portfolio/static/media/bg3.8c84f4103cef78b40c3b.jpg",
     "static/media/bg1.jpg": "/Portfolio/static/media/bg1.bb23731aec8061c93e06.jpg",
@@ -13,6 +13,7 @@
     "static/media/plant2.png": "/Portfolio/static/media/plant2.acb8ee779c071d9994aa.png",
     "static/media/plant3.png": "/Portfolio/static/media/plant3.0f8ab03e536d2bac1389.png",
     "static/media/animal2.png": "/Portfolio/static/media/animal2.d60580e72fc306be0305.png",
+    "static/media/mockup1.png": "/Portfolio/static/media/mockup1.2002d19c067c9b92d959.png",
     "static/media/animal1.png": "/Portfolio/static/media/animal1.5eae4eab518b8754daf4.png",
     "static/media/animal3.png": "/Portfolio/static/media/animal3.c7f87b10fb0cec734e68.png",
     "static/media/bg7.jpg": "/Portfolio/static/media/bg7.66833a98a4bc467137de.jpg",
@@ -20,7 +21,9 @@
     "static/media/Poster.png": "/Portfolio/static/media/Poster.f12d1f328d73557b6547.png",
     "static/media/background2.png": "/Portfolio/static/media/background2.c9ec8a93d5bbd0d7ded0.png",
     "static/media/award-2018.jpeg": "/Portfolio/static/media/award-2018.b8e25b0a5b5e1f653cf3.jpeg",
+    "static/media/Janice.png": "/Portfolio/static/media/Janice.22d52dd2af6f6381913b.png",
     "static/media/SOE-LOGO-whitebg.png": "/Portfolio/static/media/SOE-LOGO-whitebg.f0f0e2699a98af75f154.png",
+    "static/media/bg.png": "/Portfolio/static/media/bg.745713a7aa7ba8a8fde0.png",
     "static/media/2017.jpeg": "/Portfolio/static/media/2017.9013811871b301b998a5.jpeg",
     "static/media/award-2017.jpeg": "/Portfolio/static/media/award-2017.232c3408a664bb4d2cac.jpeg",
     "static/media/sme-awards.jpg": "/Portfolio/static/media/sme-awards.c159f4b6a26f6d5f881d.jpg",
@@ -29,16 +32,16 @@
     "static/media/private-banking.png": "/Portfolio/static/media/private-banking.3f9e1f36cd858e491b26.png",
     "static/media/asia-risk-awards-2012.jpg": "/Portfolio/static/media/asia-risk-awards-2012.3aea26dce3b2826a713d.jpg",
     "static/media/wealth-brief-2015.jpg": "/Portfolio/static/media/wealth-brief-2015.aee00e4e70b6db2f1b9c.jpg",
+    "static/media/bg2.png": "/Portfolio/static/media/bg2.d4e6b157f6f148c90de4.png",
     "static/media/srp-whitebg.png": "/Portfolio/static/media/srp-whitebg.118bc23534ce1563e3fc.png",
-    "static/media/Janice.png": "/Portfolio/static/media/Janice.e04c01e2d57f30a9c9ef.png",
     "static/media/red-herring.jpg": "/Portfolio/static/media/red-herring.9f05dc0589aeff9e7ff1.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.b7aba817.css.map": "/Portfolio/static/css/main.b7aba817.css.map",
-    "main.ff84874c.js.map": "/Portfolio/static/js/main.ff84874c.js.map",
+    "main.72fc3842.css.map": "/Portfolio/static/css/main.72fc3842.css.map",
+    "main.38c94acc.js.map": "/Portfolio/static/js/main.38c94acc.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7aba817.css",
-    "static/js/main.ff84874c.js"
+    "static/css/main.72fc3842.css",
+    "static/js/main.38c94acc.js"
   ]
 }
