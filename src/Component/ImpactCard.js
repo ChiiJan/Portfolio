@@ -6,7 +6,7 @@ import Collapse from '@mui/material/Collapse';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import '../css/poster.css';
+import '../css/webdevelopment.css';
 
 
 const ExpandMore = styled((props) => {

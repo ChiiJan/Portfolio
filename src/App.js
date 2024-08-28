@@ -10,10 +10,11 @@ import WorkOne from "./Pages/WorkNumOne.js";
 import WorkTwo from "./Pages/WorkNumTwo.js";
 import WorkThree from "./Pages/WorkNumThree.js";
 import Project from "./Pages/Project.js";
+import UIOne from "./Pages/UIPageOne.js";
 
 function App() {
-  return (
-    <>
+    return (
+        <>
             <BrowserRouter>
                 <Routes>
                     <Route
@@ -32,22 +33,28 @@ function App() {
                         path="/WorkNumTwo"
                         element={<WorkTwo />}
                     />
-                    
+
                     <Route
                         exact
                         path="/WorkNumThree"
                         element={<WorkThree />}
                     />
 
-<Route
+                    <Route
                         exact
                         path="/Project"
-                        element={<Project/>}
+                        element={<Project />}
+                    />
+
+                    <Route
+                        exact
+                        path="/UIPageOne"
+                        element={<UIOne />}
                     />
                 </Routes>
             </BrowserRouter>
         </>
-  );
+    );
 }
 
 export default App;

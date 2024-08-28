@@ -1,3 +1,137 @@
+/*Work Num One: Poster style*/
+.Poster {
+    text-align: center;
+    background-image: url("../assets/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body > h1 {
+    background-color: #50903C;
+    min-height: 8vh;
+    display: flex;
+    font-size: 2rem;
+    color: #FFF3C7;
+    justify-content: center;
+    padding: 20px 10rem;
+}
+
+.Poster-footer {
+    background-color: #50903C;
+    /*min-height: 5vh;*/
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: #FFF3C7;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.Card-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Card-layout>div {
+    margin: 8px;
+    padding: 16px;
+}
+
+.Card {
+    border: 1px #474646;
+    border-radius: 8px;
+    width: 300px;
+
+}
+
+.ImpactCard {
+    min-height: 10vh;
+    /* minimum height = screen height */
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+.Content-layout {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+}
+
+.Content-layout {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+}
+
+.InfoContent-layout {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    align-items: end;
+    padding: 16px;
+    background-color: rgb(145, 31, 31);
+    color: #FFF3C7;
+
+}
+
+.InfoExpanded-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/*Work Num Three: Dashboard style*/
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.headercontent {
+    background-color: #ffe6b8;
+    
+}
+
+.headercontent > h1 {
+    display: flex;
+    min-height: 8vh;
+    background-color: orange;
+    color: white;
+    font-size: 2rem;   
+    padding: 20px 10rem;
+    justify-content: flex-start;
+}
+
+.contentBox {
+    padding: 8px 10rem;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.list-layout {
+    display: flex;
+    align-items: stretch;
+    margin-top: 8px;
+
+}
+
+.predict-content {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 20px;
+}
+
+/*Work Num two: Hexagon*/
 .Hexagon {
     background-color: #000;
 }
@@ -41,7 +175,7 @@
     visibility: hidden;
     outline: 1px solid transparent;
     /* fix for jagged edges in FF on hover transition */
-    
+
 }
 
 .hex::after {
@@ -64,7 +198,7 @@
     -webkit-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
     -ms-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
     transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
-    
+
 }
 
 .hexIn * {
@@ -72,7 +206,7 @@
     visibility: visible;
     outline: 1px solid transparent;
     /* fix for jagged edges in FF on hover transition */
-    
+
 }
 
 .hexLink {

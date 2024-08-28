@@ -1,4 +1,4 @@
-import '../css/poster.css';
+import '../css/webdevelopment.css';
 import '../css/home.css';
 import { HomeCard } from '../Component/Card.jsx';
 import Navbar from '../Component/Navbar.js';
@@ -12,10 +12,9 @@ function Home() {
 
         <div className='intro'>
           <div className='content'>
-            <p>Hello~ I'm Janice,</p>
-            <h1>Budding</h1>
-            <h1>Designer</h1>
-            <p>based in Singapore</p>
+            <p>Hi! I'm Janice, an</p>
+            <h1>Introverted Designer</h1>
+            <p>Passionate in Design and Technology</p>
           </div>
 
           <img src={require('../assets/Janice.png')} alt="profilepic" />
@@ -30,7 +29,7 @@ function Home() {
                 imgsrc={require('../assets/screenshot.png')}
                 imgalt={"test"}
                 title={"AGDelta Achievment"}
-                description={"Timeline of AGDelta's achievement"}
+                description={"Developed an interactive digital timeline to showcase AG Delta's achievements, originally designed as a wall art during my internship. Transitioned the project from a PowerPoint format to a dynamic web-based version using HTML and CSS."}
                 location={"/WorkNumTwo"}
               />
 
@@ -40,8 +39,8 @@ function Home() {
               <HomeCard
                 imgsrc={require('../assets/Poster.png')}
                 imgalt={"test"}
-                title={"Effect of waste on Native Organisms"}
-                description={"A short introduction of the native organism in Singapore and explains the effects of waste on them"}
+                title={"Native Organisms"}
+                description={"Created an interactive showcase on Singapore's native organisms and the impact of waste, transitioning a school poster project from Figma and Canva to HTML, CSS, and React Material Design."}
                 location={"/WorkNumOne"}
               />
 
@@ -53,7 +52,7 @@ function Home() {
                 imgsrc={require('../assets/bread-screenshot.jpg')}
                 imgalt={"test"}
                 title={"Bread Sales"}
-                description={"A dashboard to showcase current and forecast bread sales. (conceptual)"}
+                description={"Developed an interactive dashboard showcasing conceptual sales data for a business proposal, initially prototyped in Figma and later built with HTML, CSS, and React Material Design."}
                 location={"/WorkNumThree"}
               />
 

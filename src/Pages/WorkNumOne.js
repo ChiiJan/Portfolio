@@ -1,19 +1,20 @@
-import '../css/poster.css';
+import '../css/webdevelopment.css';
 import { useNavigate } from "react-router-dom";
 import { PosterCard } from "../Component/PosterCard.js";
 import { ImpactCard } from "../Component/ImpactCard.js";
 import MaterialIcon from 'react-google-material-icons';
+import Navbar from '../Component/Navbar.js';
+
 
 function WorkOne() {
     const navigate = useNavigate();
 
     return (
         <div className="Poster">
-            <header className="Poster-header">
-                <h1>Native Species in Singapore</h1>
-            </header>
-            <body className="Poster-body">
+            <Navbar />
 
+            <body className="Poster-body">
+                <h1>Native Species in Singapore</h1>
                 <div className='Card-layout'>
                     <div>
                         <PosterCard
@@ -54,10 +55,10 @@ function WorkOne() {
                     <ImpactCard
                         displayIcon={<MaterialIcon icon="compost" size={36} />}
                         displayText={"Waste impact on Plants"}
-                        impact1={"Protective equipment wastes add the microplastic load to the soil, which are too small to be seen and can alter soil physicochemical properties, decrease soil fertility and nutrients, and soil microorganism function by having a metabolic effect on plants. These microplastics persists for more than 100 years due to low light and oxygen conditions." }
+                        impact1={"Protective equipment wastes add the microplastic load to the soil, which are too small to be seen and can alter soil physicochemical properties, decrease soil fertility and nutrients, and soil microorganism function by having a metabolic effect on plants. These microplastics persists for more than 100 years due to low light and oxygen conditions."}
                         impact2={"Plant may absorb nutrients from soil pollution and/or mircoplastic load through their roots and become harmful to human or animals that consume it."}
-                        impacticon1={<MaterialIcon icon="masks" size={36} /> }
-                        impacticon2={<MaterialIcon icon="grass" size={36} /> }
+                        impacticon1={<MaterialIcon icon="masks" size={36} />}
+                        impacticon2={<MaterialIcon icon="grass" size={36} />}
                     />
                 </div>
 
@@ -101,13 +102,13 @@ function WorkOne() {
                     <ImpactCard
                         displayIcon={<MaterialIcon icon="cruelty_free" size={36} />}
                         displayText={"Waste impact on Animals"}
-                        impact1={"Terrestrial animals and insects may mistake these wastes as food. This will harm their digestive system due to being poisoned by litter with chemical composition, leading to serious health concerns such as hormonal changes that can cause reproductive abnormalities and an overactive immune system. " }
+                        impact1={"Terrestrial animals and insects may mistake these wastes as food. This will harm their digestive system due to being poisoned by litter with chemical composition, leading to serious health concerns such as hormonal changes that can cause reproductive abnormalities and an overactive immune system. "}
                         impact2={"These waste may be mistaken as a shelter and/or when they are searching for food, which will trap and injure the animals.  "}
-                        impacticon1={<MaterialIcon icon="bug_report" size={36} /> }
-                        impacticon2={<MaterialIcon icon="warning" size={36} /> }
+                        impacticon1={<MaterialIcon icon="bug_report" size={36} />}
+                        impacticon2={<MaterialIcon icon="warning" size={36} />}
                     />
                 </div>
-                
+
             </body>
             <footer className="Poster-footer">
             </footer>

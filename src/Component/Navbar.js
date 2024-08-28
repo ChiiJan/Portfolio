@@ -14,7 +14,7 @@ export default function Navbar() {
                     <a href='/Portfolio'>Resume</a>
                 </li>
                 <li>
-                    <a href='/Project'>Work</a>
+                    <a href='/Portfolio'>Work</a>
                 </li>
             </ul>
         </nav>

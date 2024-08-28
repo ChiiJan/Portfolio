@@ -1,10 +1,11 @@
-import '../css/Hexagon.css';
-import { useNavigate } from "react-router-dom";
+import '../css/webdevelopment.css';
 import * as React from 'react';
+import Navbar from '../Component/Navbar.js';
 
 function WorkTwo() {
     return (
         <div className="Hexagon">
+            <Navbar />
             <header className='Hexagon-header'>
                 <h4>AGDelta</h4>
             </header>

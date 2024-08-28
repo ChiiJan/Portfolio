@@ -1,4 +1,4 @@
-import '../css/poster.css';
+import '../css/webdevelopment.css';
 import '../css/home.css';
 import { HomeCard } from '../Component/Card.jsx';
 import Navbar from '../Component/Navbar.js';
