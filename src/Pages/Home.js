@@ -57,6 +57,18 @@ function Home() {
               />
 
             </div>
+
+            <div>
+
+              <HomeCard
+                imgsrc={require('../assets/mockup1.png')}
+                imgalt={"Login"}
+                title={"Login and Registration Redesign"}
+                description={"For a school project, I designed the Login and Registration forms using Figma. The aim was to refine and enhance these forms to improve the user experience. These interfaces are crucial for onboarding users to the platform, impacting their initial interactions and overall satisfaction."}
+                location={"/UIPageOne"}
+              />
+
+            </div>
           </div>
         </div>
       </body>
