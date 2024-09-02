@@ -40,7 +40,7 @@ function WorkThree() {
   return (
     <div className='dashboard'>
       <Navbar />
-      <body className='headercontent'>
+      <div className='headercontent'>
         <h1>Bread</h1>
 
         <div className='contentBox'>
@@ -184,7 +184,7 @@ function WorkThree() {
             </Box>
           </div>
         </div>
-      </body>
+      </div>
     </div>
 
   );

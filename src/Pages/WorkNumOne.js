@@ -1,5 +1,4 @@
 import '../css/webdevelopment.css';
-import { useNavigate } from "react-router-dom";
 import { PosterCard } from "../Component/PosterCard.js";
 import { ImpactCard } from "../Component/ImpactCard.js";
 import MaterialIcon from 'react-google-material-icons';
@@ -7,13 +6,12 @@ import Navbar from '../Component/Navbar.js';
 
 
 function WorkOne() {
-    const navigate = useNavigate();
 
     return (
         <div className="Poster">
             <Navbar />
 
-            <body className="Poster-body">
+            <div className="Poster-body">
                 <h1>Native Species in Singapore</h1>
                 <div className='Card-layout'>
                     <div>
@@ -109,9 +107,7 @@ function WorkOne() {
                     />
                 </div>
 
-            </body>
-            <footer className="Poster-footer">
-            </footer>
+            </div>
         </div>
     );
 }

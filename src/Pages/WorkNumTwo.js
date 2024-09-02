@@ -9,7 +9,7 @@ function WorkTwo() {
             <header className='Hexagon-header'>
                 <h4>AGDelta</h4>
             </header>
-            <body className='hex-body'>
+            <div className='hex-body'>
                 <ul id="hexGrid">
                     <li class="hex">
                         <div class="hexIn">
@@ -200,7 +200,7 @@ function WorkTwo() {
                     </li>
 
                 </ul>
-            </body>
+            </div>
         </div>
     )
 }

@@ -6,7 +6,7 @@
     background-size: cover;
 }
 
-body > h1 {
+.Poster-body > h1 {
     background-color: #50903C;
     min-height: 8vh;
     display: flex;

@@ -12,8 +12,8 @@ function Home() {
 
         <div className='intro'>
           <div className='content'>
-            <p>Hi! I'm Janice, an</p>
-            <h1>Introverted Designer</h1>
+            <p>Hi! I'm Janice, a</p>
+            <h1>Thoughtful Designer</h1>
             <p>Passionate in Design and Technology</p>
           </div>
 
@@ -52,7 +52,7 @@ function Home() {
                 imgsrc={require('../assets/bread-screenshot.jpg')}
                 imgalt={"test"}
                 title={"Bread Sales"}
-                description={"Developed an interactive dashboard showcasing conceptual sales data for a business proposal, initially prototyped in Figma and later built with HTML, CSS, and React Material Design."}
+                description={"Developed an conceptual dashboard showcasing conceptual sales data for a business proposal, initially prototyped in Figma and later built with HTML, CSS, and React Material Design."}
                 location={"/WorkNumThree"}
               />
 
@@ -64,7 +64,7 @@ function Home() {
                 imgsrc={require('../assets/mockup1.png')}
                 imgalt={"Login"}
                 title={"Login and Registration Redesign"}
-                description={"For a school project, I designed the Login and Registration forms using Figma. The aim was to refine and enhance these forms to improve the user experience. These interfaces are crucial for onboarding users to the platform, impacting their initial interactions and overall satisfaction."}
+                description={"Designed the Login and Registration forms using Figma for a school project. The aim was to refine and enhance these forms to improve the user experience in onboarding users to the platform, impacting their initial interactions and overall satisfaction."}
                 location={"/UIPageOne"}
               />
 
