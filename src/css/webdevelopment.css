@@ -73,7 +73,7 @@
     align-content: center;
     align-items: end;
     padding: 16px;
-    background-color: rgb(145, 31, 31);
+    background-color: #911f1f;
     color: #FFF3C7;
 
 }
@@ -115,6 +115,7 @@
     flex-direction: row;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .list-layout {

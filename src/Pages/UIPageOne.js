@@ -11,7 +11,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Typography from '@mui/material/Typography';
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 const AntTabs = styled(Tabs)({
     borderBottom: '1px solid #a8886e',
     '& .MuiTabs-indicator': {

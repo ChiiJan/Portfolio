@@ -32,7 +32,7 @@ const barChartsParams = {
     },
   },
   height: 300,
-  width: 680,
+  width: 600,
 };
 
 
@@ -102,7 +102,7 @@ function WorkThree() {
               my={1}
               bgcolor={'white'}
               borderRadius={4}
-              p={4}
+              p={2}
               sx={{ border: '1px solid #e1e1e1', alignContent: 'center' }}>
               <Typography variant='body' fontWeight={"bold"} sx={{ marginLeft: 4 }}>
                 Bread Sales as at 20/8/23 to 26/8/23
@@ -115,9 +115,9 @@ function WorkThree() {
             <Box
               my={1}
               borderRadius={4}
-              p={2}
+              p={2}             
               bgcolor={'white'}
-              sx={{ border: '1px solid #e1e1e1' }}>
+              sx={{ border: '1px solid #e1e1e1', width:'28%'}}>
               <Typography variant='body' fontWeight={"bold"}>
                 Predicted Amount of Bread to be sold tomorrow
               </Typography>
