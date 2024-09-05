@@ -1,0 +1,31 @@
+.Resume-body {
+    background-color: #f5f2ee; 
+    padding: 4px;
+    @media screen and (max-width: 767px) {
+        padding: 12px;
+    }
+}
+
+.Resume-header > h1 {
+    background-color: #334EAC;
+    min-height: 8vh;
+    display: flex;
+    font-size: 2rem;
+    color: #F7F2EB;
+    justify-content: flex-start;
+    padding: 20px 10rem;
+
+    @media screen and (max-width: 767px) {
+        padding: 20px;
+    }
+}
+
+#list {
+    margin-left: 20px;
+}
+
+#imgStyle {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}

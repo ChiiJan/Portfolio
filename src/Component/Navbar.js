@@ -7,15 +7,11 @@ export default function Navbar() {
                 Janice Chua
             </a>
             <ul>
+                
                 <li>
-                    <a href='/Portfolio'>About</a>
+                    <a href='/Resume'>Resume</a>
                 </li>
-                <li>
-                    <a href='/Portfolio'>Resume</a>
-                </li>
-                <li>
-                    <a href='/Portfolio'>Work</a>
-                </li>
+                
             </ul>
         </nav>
     )

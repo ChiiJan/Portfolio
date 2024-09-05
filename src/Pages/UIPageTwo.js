@@ -65,7 +65,8 @@ function UITwo() {
                     >
                         <Tab label="Task #1" {...a11yProps(0)} />
                         <Tab label="Task #2" {...a11yProps(1)} />
-                        <Tab label="Coming Soon" {...a11yProps(2)} />
+                        <Tab label="Task #3" {...a11yProps(2)} />
+                        <Tab label="Coming Soon" {...a11yProps(3)} />
                     </Tabs>
 
                     <TabPanel value={value} index={0}>
@@ -107,10 +108,24 @@ function UITwo() {
                         </div>
                     </TabPanel>
                     <TabPanel value={value} index={2}>
-                        Coming Soon
+                    <Typography variant="h6" gutterBottom >
+                            Redesign: Landing Screen Design about Productivity
+                        </Typography>
+                        <div className='image-content-pg2'>
+                            <div class='item-pg2'>
+                                <img src={require('../assets/Landing-page-old.png')} alt="Landing Page Old Version" />
+
+                                <span class="caption-pg2">Old Version</span>
+                            </div>
+
+                            <div class='item-pg2'>
+                                <img src={require('../assets/Landing-page-new.png')} alt="Landing Page Redesigned Version" />
+                                <span class="caption-pg2">Redesigned Version</span>
+                            </div>
+                        </div>
                     </TabPanel>
                     <TabPanel value={value} index={4}>
-                        Item Five
+                        Coming Soon
                     </TabPanel>
                     <TabPanel value={value} index={5}>
                         Item Six

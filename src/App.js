@@ -12,6 +12,7 @@ import WorkThree from "./Pages/WorkNumThree.js";
 import Project from "./Pages/Project.js";
 import UIOne from "./Pages/UIPageOne.js";
 import UITwo from "./Pages/UIPageTwo.js";
+import Resume from "./Pages/Resume.js";
 
 function App() {
     return (
@@ -53,10 +54,16 @@ function App() {
                         element={<UIOne />}
                     />
 
-<Route
+                    <Route
                         exact
                         path="/UIPageTwo"
                         element={<UITwo />}
+                    />
+
+                    <Route
+                        exact
+                        path="/Resume"
+                        element={<Resume />}
                     />
                 </Routes>
             </BrowserRouter>

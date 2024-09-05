@@ -44,9 +44,9 @@
     height: fit-content;
     transform: rotate(-45deg);
     position: absolute;
-    left: 46.5%;
+    left: 41%;
     z-index: 0;
-    top: 35%;
+    top: 30%;
 
     @media screen and (max-width: 767px) {
         left: 63%;
