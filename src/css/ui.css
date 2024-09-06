@@ -2,15 +2,18 @@
     background-color: #ffe6b8;
 }
 
-.UIheader>h1 {
-    display: flex;
+.UI-header > h1 {
+    background-color: #334EAC;
     min-height: 8vh;
-    background-color: #ffe6b8;
-    color: #503300;
+    display: flex;
     font-size: 2rem;
-    padding: 20px 10rem;
+    color: #F7F2EB;
     justify-content: flex-start;
-    justify-content: center;
+    padding: 20px 2rem;
+
+    @media screen and (max-width: 767px) {
+        padding: 20px;
+    }
 }
 
 .UI-body {
@@ -52,9 +55,10 @@
 .image-content {
     display: flex;
     gap: 16px;
-    align-items: center;
+    align-items: flex-start;
     padding: 2rem;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 div.item {
@@ -69,7 +73,8 @@ div.item > img {
     border: 1.125vh solid #998a75;
     border-radius: 20px;
     @media screen and (max-width: 767px){
-        width: 160px;
+        width: 200px;
+        
     }
 }
 .caption {
@@ -95,7 +100,7 @@ div.item > img {
 .image-content-pg2 {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 20px;
     align-items: flex-start;
     padding: 2rem;
     flex-wrap: wrap;
@@ -110,10 +115,11 @@ div.item-pg2 {
 div.item-pg2 > img {
     width: 600px;
     height: fit-content;
-    border: 1.125vh solid #998a75;
+    border: 0.725vh solid #998a75;
     border-radius: 8px;
     @media screen and (max-width: 767px){
-        width: 160px;
+        width: 320px;
+        border: 0.525vh solid #998a75;
     }
 }
 .caption-mobile {
@@ -122,9 +128,11 @@ div.item-pg2 > img {
 
 .image-content-mobile {
     display: flex;
-    gap: 16px;
+    gap: 20px;
     padding: 2rem;
     flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 div.item-mobile {
@@ -135,12 +143,13 @@ div.item-mobile {
     
 }
 div.item-mobile > img {
-    width: 200px;
+    width: 320px;
     height: fit-content;
-    border: 1.125vh solid #998a75;
+    border: 0.725vh solid #998a75;
     border-radius: 8px;
     @media screen and (max-width: 767px){
         width: 160px;
+        border: 0.525vh solid #998a75;
     }
 }
 .caption-mobile {
