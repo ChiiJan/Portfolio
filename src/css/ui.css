@@ -9,7 +9,7 @@
     font-size: 2rem;
     color: #F7F2EB;
     justify-content: flex-start;
-    padding: 20px 2rem;
+    padding: 20px 10rem;
 
     @media screen and (max-width: 767px) {
         padding: 20px;
