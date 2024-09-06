@@ -1,5 +1,7 @@
 .Resume-body {
     background-color: #f5f2ee; 
+    background-image: url('../assets/bg.png');
+    background-size: cover;
     padding: 4px;
     @media screen and (max-width: 767px) {
         padding: 12px;
