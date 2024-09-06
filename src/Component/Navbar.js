@@ -9,7 +9,7 @@ export default function Navbar() {
             <ul>
                 
                 <li>
-                    <a href='/Resume'>Resume</a>
+                    <a href='/UIPageTwo'>Resume</a>
                 </li>
                 
             </ul>
