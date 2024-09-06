@@ -56,13 +56,13 @@ function App() {
 
                     <Route
                         exact
-                        path="/UIPageTwo"
+                        path='/UIPageTwo'
                         element={<UITwo />}
                     />
 
                     <Route
                         exact
-                        path="/Resume"
+                        path='/Resume'
                         element={<Resume />}
                     />
                 </Routes>
