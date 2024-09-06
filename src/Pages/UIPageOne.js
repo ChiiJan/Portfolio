@@ -80,10 +80,13 @@ function UIOne() {
     return (
         <div className="UI-Login">
             <Navbar />
+            <div className="UI-header">
+                <h1>UI Redesign: Delifit Login and Registration forms</h1>
+            </div>
             <div className="UI-body">
 
                 <AntTabs value={value} onChange={handleChange} aria-label="tabs" >
-                    <AntTab label="Final Result" {...a11yProps(0)}/>
+                    <AntTab label="Final Result" {...a11yProps(0)} />
                     <AntTab label="Redesign Process" {...a11yProps(1)} />
                 </AntTabs>
 

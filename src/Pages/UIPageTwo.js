@@ -51,7 +51,7 @@ function UITwo() {
     return (
         <div>
             <Navbar />
-            <div className="UI-header">
+            <div className="Figma-header">
                 <h1>My UI/UX Learning Journey with Figma</h1>
             </div>
             <div className='UI2-body'>
