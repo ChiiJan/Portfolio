@@ -10,6 +10,7 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
+import '../css/resume.css';
 
 const style = {
     position: 'absolute',
@@ -77,7 +78,7 @@ export const TimelineDetail = ({
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot color={color} onClick={handleOpen}>
+                    <TimelineDot color={color} onClick={handleOpen} id='action'>
                         {icon}
                     </TimelineDot>
                     <TimelineConnector />
