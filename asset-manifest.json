@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.87cd43a4.css",
-    "main.js": "/Portfolio/static/js/main.60b54f3a.js",
+    "main.css": "/Portfolio/static/css/main.576022f5.css",
+    "main.js": "/Portfolio/static/js/main.dd9f30ea.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/bg3.jpg": "/Portfolio/static/media/bg3.8c84f4103cef78b40c3b.jpg",
     "static/media/bg1.jpg": "/Portfolio/static/media/bg1.bb23731aec8061c93e06.jpg",
@@ -56,12 +56,12 @@
     "static/media/srp-whitebg.png": "/Portfolio/static/media/srp-whitebg.118bc23534ce1563e3fc.png",
     "static/media/red-herring.jpg": "/Portfolio/static/media/red-herring.9f05dc0589aeff9e7ff1.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.87cd43a4.css.map": "/Portfolio/static/css/main.87cd43a4.css.map",
-    "main.60b54f3a.js.map": "/Portfolio/static/js/main.60b54f3a.js.map",
+    "main.576022f5.css.map": "/Portfolio/static/css/main.576022f5.css.map",
+    "main.dd9f30ea.js.map": "/Portfolio/static/js/main.dd9f30ea.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87cd43a4.css",
-    "static/js/main.60b54f3a.js"
+    "static/css/main.576022f5.css",
+    "static/js/main.dd9f30ea.js"
   ]
 }
