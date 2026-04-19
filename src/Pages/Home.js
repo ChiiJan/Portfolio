@@ -13,9 +13,9 @@ function Home() {
         <div className='intro'>
           <div className='content'>
             <p>Hi! I'm Janice, a</p>
-            <h1>Thoughtful Designer</h1>
+            <h1>Data Driven Organizer</h1>
             <img src={require('../assets/flower.png')} alt="profilepic" id="flower" />
-            <p>Passionate in Design and Technology</p>
+            <p>Keeping teams aligned, processes efficient, and decisions informed.</p>
             
           </div>
 
