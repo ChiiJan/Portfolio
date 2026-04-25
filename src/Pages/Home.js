@@ -12,17 +12,17 @@ function Home() {
 
         <div className='intro'>
           <div className='content'>
-            <p>Hi! I'm Janice, a</p>
-            <h1>Data Driven Organizer</h1>
-            <img src={require('../assets/flower.png')} alt="profilepic" id="flower" />
-            <p>Keeping teams aligned, processes efficient, and decisions informed.</p>
+            <p>Hi, I’m Janice 👋</p>
+            <h1>Productivity & Systems Coordinator</h1>
+            <p>Aligning workflows, improving efficiency, and supporting better day-to-day decisions.</p>
             
           </div>
 
-          <img src={require('../assets/Janice.png')} alt="profilepic" />
+          <img src={require('../assets/pfp.jpg')} alt="profilepic" />
         </div>
         <div className='body-content'>
           <h3>My Works</h3>
+          <p>🚧 This space is evolving — more projects and case studies coming soon.</p>
           <hr></hr>
           <div className='Card-layout'>
             <div>

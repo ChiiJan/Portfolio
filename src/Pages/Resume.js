@@ -23,7 +23,7 @@ function Resume() {
           <TimelineDetail
             title={"Temasek Polytechnic"}
             subtitle={"Diploma in Business Information Technology"}
-            date={"Apr 16 – Apr 19"}
+            date={"Apr 16 to Apr 19"}
             icon={<SchoolIcon />}
             color={"success"}
             bool={"True"}
@@ -32,7 +32,7 @@ function Resume() {
           <TimelineDetail
             title={"UI/UX Intern"}
             subtitle={"Ag Delta"}
-            date={"Apr 18 – Aug 18"}
+            date={"Apr 18 to Aug 18"}
             icon={<WorkIcon />}
             color={"primary"}
             pointOne={"Collaborated with designers, product managers, and developers to conceptualize and implement UI/UX solutions for web platforms. "}
@@ -42,7 +42,7 @@ function Resume() {
           <TimelineDetail
             title={"National University of Singapore (NUS)"}
             subtitle={"Bachelor of Computing in Information Systems"}
-            date={"Oct 19 – Apr 24"}
+            date={"Oct 19 to Apr 24"}
             icon={<SchoolIcon />}
             color={"success"}
             pointOne={"Digital Innovation"}
@@ -76,7 +76,7 @@ function Resume() {
           <TimelineDetail
             title={"Application Development Intern"}
             subtitle={"National University of Singapore (NUS)"}
-            date={"May 23 – Oct 23"}
+            date={"May 23 to Oct 23"}
             icon={<WorkIcon />}
             color={"primary"}
             pointOne={"Conducted comprehensive analysis of existing systems to identify and refine specifications and requirements. "}
@@ -94,10 +94,21 @@ function Resume() {
             pointThree={"Authored detailed documentation enabling stakeholders to independently manage the main menu and Custom Post Type functionalities. "}
             pointFour={"Achieved a cost saving of SGD 115k by eliminating the need for outsourcing and saved approximately 170 man-hours per year for users. "}
             imgsrc={require('../assets/ubermenu.png')}
-            imgalt={"screenshot"}
+            imgalt={"screenshot of the menu"}
             isImg={true}
           />
+          <TimelineDetail
+            title={" Admin and Support Programme (Contract) "}
+            subtitle={"Health Promotion Board (HPB)"}   
+            date={"Oct 24 to Now"}         
+            icon={<WorkIcon />}
+            color={"secondary"}
+            pointOne={"Coordinated vendor communications and operational activities, including inventory tracking and updates for reporting"}
+            pointTwo={"Maintained and developed documentation such as SOPs and user guides to ensure process consistency"}
+            pointThree={"AParticipated in User Acceptance Testing (UAT) for system enhancements, ensuring functionality aligns with business requirements and identifying potential issues prior to deployment"}
+          />
         </Timeline>
+        
 
 
       </div>
