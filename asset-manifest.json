@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.38771f08.css",
-    "main.js": "/Portfolio/static/js/main.3763a892.js",
+    "main.css": "/Portfolio/static/css/main.06a224cf.css",
+    "main.js": "/Portfolio/static/js/main.77369f89.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/bg3.jpg": "/Portfolio/static/media/bg3.8c84f4103cef78b40c3b.jpg",
     "static/media/bg1.jpg": "/Portfolio/static/media/bg1.bb23731aec8061c93e06.jpg",
@@ -35,7 +35,6 @@
     "static/media/cart-checkout.png": "/Portfolio/static/media/cart-checkout.4be33186626183a57635.png",
     "static/media/sign-up-old.png": "/Portfolio/static/media/sign-up-old.9e4693793cdbb45d2a3a.png",
     "static/media/sign-up-new.png": "/Portfolio/static/media/sign-up-new.d7bf8024848f4c5b234a.png",
-    "static/media/Janice.png": "/Portfolio/static/media/Janice.22d52dd2af6f6381913b.png",
     "static/media/Register-page-old1.png": "/Portfolio/static/media/Register-page-old1.357ec5975338c9a49e8e.png",
     "static/media/SOE-LOGO-whitebg.png": "/Portfolio/static/media/SOE-LOGO-whitebg.f0f0e2699a98af75f154.png",
     "static/media/Login-page-old.png": "/Portfolio/static/media/Login-page-old.e6d130fb777b8eb2415e.png",
@@ -52,18 +51,19 @@
     "static/media/bread-screenshot.jpg": "/Portfolio/static/media/bread-screenshot.272d732637a0b81b3e4f.jpg",
     "static/media/private-banking.png": "/Portfolio/static/media/private-banking.3f9e1f36cd858e491b26.png",
     "static/media/asia-risk-awards-2012.jpg": "/Portfolio/static/media/asia-risk-awards-2012.3aea26dce3b2826a713d.jpg",
+    "static/media/newbg.jpg": "/Portfolio/static/media/newbg.a859b6e4afa264e9299a.jpg",
+    "static/media/pfp.jpg": "/Portfolio/static/media/pfp.eae6ad13db393a51bd1b.jpg",
     "static/media/wealth-brief-2015.jpg": "/Portfolio/static/media/wealth-brief-2015.aee00e4e70b6db2f1b9c.jpg",
     "static/media/cart-checkout-credit.png": "/Portfolio/static/media/cart-checkout-credit.5689b4a707d2d0202119.png",
-    "static/media/bg2.png": "/Portfolio/static/media/bg2.d4e6b157f6f148c90de4.png",
     "static/media/srp-whitebg.png": "/Portfolio/static/media/srp-whitebg.118bc23534ce1563e3fc.png",
     "static/media/red-herring.jpg": "/Portfolio/static/media/red-herring.9f05dc0589aeff9e7ff1.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.38771f08.css.map": "/Portfolio/static/css/main.38771f08.css.map",
-    "main.3763a892.js.map": "/Portfolio/static/js/main.3763a892.js.map",
+    "main.06a224cf.css.map": "/Portfolio/static/css/main.06a224cf.css.map",
+    "main.77369f89.js.map": "/Portfolio/static/js/main.77369f89.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38771f08.css",
-    "static/js/main.3763a892.js"
+    "static/css/main.06a224cf.css",
+    "static/js/main.77369f89.js"
   ]
 }
