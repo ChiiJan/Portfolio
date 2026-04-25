@@ -15,7 +15,8 @@ function Resume() {
     <div>
       <Navbar />
       <div className="Resume-header">
-        <h1>Experience Highlights</h1>
+        <h1>My Experience</h1>
+        <p>Click to learn more!</p>
       </div>
       <div className="Resume-body">
 
@@ -102,7 +103,7 @@ function Resume() {
             subtitle={"Health Promotion Board (HPB)"}   
             date={"Oct 24 to Now"}         
             icon={<WorkIcon />}
-            color={"secondary"}
+            color={"primary"}
             pointOne={"Coordinated vendor communications and operational activities, including inventory tracking and updates for reporting"}
             pointTwo={"Maintained and developed documentation such as SOPs and user guides to ensure process consistency"}
             pointThree={"AParticipated in User Acceptance Testing (UAT) for system enhancements, ensuring functionality aligns with business requirements and identifying potential issues prior to deployment"}

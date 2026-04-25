@@ -77,41 +77,39 @@
     transform: rotate(30deg);
 }
 
-.body-content>h3 {
+.body-content > .coming-soon > p{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.body-content h3 {
     display: flex;
     align-items: flex-start;
     text-align: left;
     margin: 0 16px;
     padding: 8px 11rem;
-    font-size: 20px;
+    font-size: 24px;
 }
 
-.body-content hr{
+.body-content hr {
     border: 1.5px solid #0f2743;
     border-radius: 5px;
     width: 88%;
     margin: 0 auto;
 }
 
-.body-content p{
-    display: flex;
-    align-items: flex-start;
-    text-align: left;
-    margin: 0 16px;
-    padding: 8px 11rem;
-    font-size: 18px;
-}
 
 @media screen and (max-width: 767px) {
     .intro {
         padding: 20px;
     }
 
-    .body-content>h3 {
+    .body-content h3 {
         padding: 20px;
     }
 
-    .body-content>hr {
+    .body-content hr {
         width: 88%;
         margin: 0 auto;
     }

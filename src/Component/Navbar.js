@@ -7,12 +7,13 @@ export default function Navbar() {
     const navigate = useNavigate();
     return (
         <nav className='nav'>
-            <Button id= "button" onClick={() => navigate("/Portfolio")}>Janice Chua</Button>
+            <Button id= "button" onClick={() => navigate("/Portfolio")}>Overview</Button>
             
             <Stack direction="row" spacing={2}>
-                <Button id= "button" onClick={() => navigate("/Resume")}>Resume</Button>
-                <Button id= "button" disabled>About</Button>
-                <Button id= "button" disabled>Projects</Button>
+                <Button id= "button" onClick={() => navigate("/Resume")}>Timeline</Button>
+                <Button id= "button" disabled>About me</Button>
+                <Button id= "button" disabled>Project</Button>
+                <Button id= "button" disabled>Others</Button>
             </Stack>
         </nav>
     )
