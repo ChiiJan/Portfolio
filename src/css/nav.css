@@ -12,9 +12,8 @@ body {
 }
 
 .nav {
-    background-image: url('../assets/newbg.jpg');
-    background-size: cover;
-    color: #0f2743;
+    background: linear-gradient(180deg, #AFCBE8 0%, #98BDE0 100%);
+  backdrop-filter: blur(8px);
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -43,15 +42,12 @@ body {
     text-transform: capitalize;
 }
 
-#button:active {
-    color: #334EAC;
-    text-decoration: underline;
-}
-
 #button:hover {
     color: #334EAC;
     text-decoration: underline;
+    transition: 0.2s ease;
 }
+
 
 #button:disabled {
     color: #c9c9c9;

@@ -1,0 +1,160 @@
+.about-me-full {
+     display: flex;
+     min-height: 100vh;
+}
+
+.about-me-left {
+background: linear-gradient(180deg, #AFCBE8 0%, #98BDE0 100%);
+  backdrop-filter: blur(8px);
+  padding: 32px 28px;
+  width: 30%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  color: #0f1122;
+
+}
+
+.about-me-left span::before {
+  content: "• ";
+  color: #0f1122;
+}
+
+.about-me-left h1 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid rgba(255,255,255,0.65);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.18);
+  padding: 18px;
+}
+
+.left-content p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.left-content span {
+  font-weight: 600;
+  color: #0f1122;
+}
+
+.left-content .sub {
+  font-size: 13px;
+  color: #444;
+  margin-left: 4px;
+}
+
+/* subtle divider effect like your reference */
+.left-content p:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.08);
+  margin-top: 8px;
+}
+
+/* optional hover polish */
+.about-me-left:hover {
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+#pfp{
+border: 4px solid #ddd;
+  border-radius: 4px;
+  border-style: double;
+  padding: 5px;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.left-content{
+    margin-top: 24px;
+}
+
+.about-me-right {
+    width:70%;
+    background: black;
+    padding: 32px 28px;
+    color: #D6D6D6;
+    padding: 32px 48px;
+}
+
+.about-me-right h1 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(255,255,255,0.22);
+  background: rgba(255,255,255,0.04);
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.03);
+}
+
+.right-content p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  
+}
+
+#span {
+  font-weight: 600;
+  font-size: 20px;
+  color: wheat;
+  font-weight: bolder;
+  align-items: center;
+}
+
+#span::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #E6D3A3;
+  margin-top: 6px;
+  border-radius: 2px;
+}
+
+#knowmebutton {
+display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 12px;
+  background: #6d79b8;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.25s ease;
+  font-size: small;
+}
+
+#knowmebutton:hover {
+    background: #7f8ed6;
+  transform: translateY(-2px);
+}

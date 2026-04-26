@@ -11,7 +11,7 @@ export default function Navbar() {
             
             <Stack direction="row" spacing={2}>
                 <Button id= "button" onClick={() => navigate("/Resume")}>Timeline</Button>
-                <Button id= "button" disabled>About me</Button>
+                <Button id= "button" onClick={() => navigate("/Aboutme")}>About me</Button>
                 <Button id= "button" disabled>Project</Button>
                 <Button id= "button" disabled>Others</Button>
             </Stack>

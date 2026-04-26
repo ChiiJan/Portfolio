@@ -13,6 +13,7 @@ import Project from "./Pages/Project.js";
 import UIOne from "./Pages/UIPageOne.js";
 import UITwo from "./Pages/UIPageTwo.js";
 import Resume from "./Pages/Resume.js";
+import Aboutme from "./Pages/Aboutme.js";
 
 function App() {
     return (
@@ -64,6 +65,12 @@ function App() {
                         exact
                         path='/Resume'
                         element={<Resume />}
+                    />
+
+                    <Route
+                        exact
+                        path='/Aboutme'
+                        element={<Aboutme />}
                     />
                 </Routes>
             </BrowserRouter>

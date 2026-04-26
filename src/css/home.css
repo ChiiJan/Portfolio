@@ -2,6 +2,7 @@
     background-color: #D0E3FF;
     background-image: url('../assets/newbg.jpg');
     background-size: cover;
+    background-blend-mode: lighten;
 }
 
 
@@ -11,17 +12,16 @@
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px 10rem;
+    margin-top: 50px;
 }
 
 .coming-soon {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px 10rem;
+    justify-content: center;
+    padding: 10px 0px 50px 0px;
 }
 
-.content {
+.intro-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,15 +33,11 @@
     color: #030818;
 }
 
-.content>h1 {
+.intro-content>h1 {
     font-size: 28px;
-    text-transform: capitalize;
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-    z-index: 1;
 }
 
-.content>p {
+.intro-content>p {
     font-size: 18px;
     font-weight: 800px;
     z-index: 1;
@@ -62,6 +58,34 @@
     }
 }
 
+#knowmebutton {
+    margin-top: 24px;
+    color: white;
+    background-color: #4F5D95;
+    text-align: inherit;
+    font-size: medium;
+    height: 15%;
+    width: 50%;
+    border-radius: 12px;
+    padding: 14px 28px;
+}
+
+#knowmebutton:active {
+    color: white;
+    text-decoration: underline;
+    background-color: #262d3f;
+    font-weight: bold;
+    transform: translateY(-1px);
+}
+
+#knowmebutton:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: #262d3f;
+    font-weight: bold;
+    transform: translateY(-1px);
+}
+
 .intro>img {
     background-image: url('../assets/newbg.jpg');
     border-radius: 29% 62% 63% 40% / 41% 40% 50% 59%;
@@ -69,18 +93,14 @@
     width: 260px;
     height: 330px;
     border: 2px solid #4a5f9b;
-    filter: drop-shadow(8px 5px 8px #465379);
+    filter: drop-shadow(2px 2px 8px #465379);
 
 }
 
-.intro:hover>img {
-    transform: rotate(30deg);
-}
 
-.body-content > .coming-soon > p{
-    display: flex;
-    align-items: flex-start;
-    text-align: left;
+
+.coming-soon > p{
+    align-items: center;
 }
 
 .body-content h3 {

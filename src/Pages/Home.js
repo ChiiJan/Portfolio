@@ -2,33 +2,32 @@ import '../css/webdevelopment.css';
 import '../css/home.css';
 import { HomeCard } from '../Component/Card.jsx';
 import Navbar from '../Component/Navbar.js';
-
+import { useNavigate } from "react-router-dom";
+import Button from '@mui/material/Button';
 
 function Home() {
-  return (
+  const navigate = useNavigate();
+  return (  
     <div className="Home">
       <Navbar />
       <body className="Home-body">
 
         <div className='intro'>
-          <div className='content'>
+          <div className='intro-content'>
             <p>Hi, I’m Janice 👋</p>
             <h1>Productivity & Systems Coordinator</h1>
             <p>Aligning workflows, improving efficiency, and supporting better day-to-day decisions.</p>
+            <Button id= "knowmebutton" onClick={() => navigate("/Aboutme")}>More about me → </Button>
           </div>
 
           <img src={require('../assets/pfp.jpg')} alt="profilepic" />
         </div>
 
         <div className='body-content'>
-          <h3>Updates</h3>
-          <hr></hr>
-          <p className="coming-soon">🚧 This space is evolving — more projects and case studies coming soon.</p>
           <h3>My Works</h3>         
           <hr></hr>
           <div className='Card-layout'>
             <div>
-
               <HomeCard
                 imgsrc={require('../assets/screenshot.png')}
                 imgalt={"test"}
@@ -37,10 +36,8 @@ function Home() {
                 location={"/WorkNumTwo"}
                 tagName={"Web Development"}
               />
-
             </div>
             <div>
-
               <HomeCard
                 imgsrc={require('../assets/Poster.png')}
                 imgalt={"test"}
@@ -49,11 +46,9 @@ function Home() {
                 location={"/WorkNumOne"}
                 tagName={"Web Development"}
               />
-
             </div>
 
             <div>
-
               <HomeCard
                 imgsrc={require('../assets/bread-screenshot.jpg')}
                 imgalt={"test"}
@@ -62,11 +57,9 @@ function Home() {
                 location={"/WorkNumThree"}
                 tagName={"Web Development"}
               />
-
             </div>
 
             <div>
-
               <HomeCard
                 imgsrc={require('../assets/mockup1.png')}
                 imgalt={"Login"}
@@ -75,11 +68,9 @@ function Home() {
                 location={"/UIPageOne"}
                 tagName={"UI/UX"}
               />
-
             </div>
 
             <div>
-
               <HomeCard
                 imgsrc={require('../assets/title-image.png')}
                 imgalt={"Login"}
@@ -91,7 +82,8 @@ function Home() {
 
             </div>
           </div>
-        </div>
+        </div>        
+        <p className='coming-soon'>🚧 This space is evolving — more projects and case studies coming soon.</p>
       </body>
     </div>
 
