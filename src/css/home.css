@@ -15,10 +15,10 @@
     margin-top: 50px;
 }
 
-.coming-soon {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0px 50px 0px;
+#coming-soon {
+    font-size: 14px;
+  color: #6B7280;
+  margin-top: 12px;
 }
 
 .intro-content {

@@ -64,7 +64,7 @@ function UITwo() {
                         value={value}
                         onChange={handleChange}
                         aria-label="Vertical tabs"
-                        sx={{ borderRight: 1, borderColor: 'divider', width: '24%' }}
+                        sx={{ borderRight: 1, borderColor: 'divider', width: '40%' }}
                     >
                         <Tab label="Task #1" {...a11yProps(0)} />
                         <Tab label="Task #2" {...a11yProps(1)} />
@@ -75,16 +75,12 @@ function UITwo() {
                     <TabPanel value={value} index={0}>
 
                         <Typography variant="h6" gutterBottom >
-                            Redesign: Minimalist Sign up Screen Design about Productivity
+                            Redesign: Minimalist Sign-Up Experience for a Productivity Platform
                         </Typography>
 
-                        My first challenge was to design a sign-up form or page, but I wanted to connect it with a meaningful project.
-                        While I had previously done a quick redesign of a mobile app's login and sign-up screens,
-                        I was more interested in tackling a web-based version.
-                        As I reviewed my past work, I came across an individual assignment focused on productivity.
-                        This seemed like the perfect opportunity to revisit and improve the project,
-                        especially after noticing several poor design choices I made at the time.
-                        It gave me a chance to refine and elevate the overall design.
+                        This project began as a challenge to design a sign-up interface, but I wanted it to be part of something more meaningful. Rather than creating a standalone screen, I chose to revisit a previous individual assignment focused on productivity.
+
+                        While I had earlier explored a quick redesign of mobile login and sign-up screens, I was more interested in developing a web-based experience. Reviewing my past work, I identified several design decisions that could be improved. This redesign became an opportunity to refine those choices and elevate the overall user experience with a more thoughtful, minimalist approach.
 
                         <div className='image-content-pg2'>
                             <div class='item-pg2'>
@@ -101,15 +97,13 @@ function UITwo() {
                     </TabPanel>
                     <TabPanel value={value} index={1}>
                         <Typography variant="h6" gutterBottom>
-                            Cart Checkout form
+                            Checkout Experience Design: Cart & Payment Flow
                         </Typography>
-                        My second challenge was to create a credit card checkout form or page.
-                        This led me to think of the overall cart checkout experience,
-                        so I decided to design both a cart checkout page and a credit card input form.
-                        I drew inspiration from Lazada’s mobile design due to its simplicity and user-friendly cart summary.
-                        However, I made some tweaks to the design, such as consolidating all payment options on a single page,
-                        rather than directing users to a separate one.
-                        If given the opportunity, I’d like to gather user feedback to assess whether this approach enhances the convenience of selecting different payment methods.
+                        The second challenge focused on designing a credit card checkout form. Rather than treating it as a standalone component, I expanded the scope to consider the entire checkout experience. This led me to design both a cart checkout page and a credit card input form.
+
+                        I drew inspiration from Lazada’s mobile interface, particularly its clear and user-friendly cart summary. Building on this, I introduced adjustments to better streamline the flow—such as consolidating all payment options within a single page instead of redirecting users to a separate screen.
+
+                        Given more time, I would validate this approach through user testing to assess whether presenting all payment methods upfront improves convenience and decision-making during checkout.
                         <div className='image-content-mobile'>
 
                             <div class='item-mobile'>
@@ -132,13 +126,11 @@ function UITwo() {
                         <Typography variant="h6" gutterBottom >
                             Redesign: Pomodoro Timer
                         </Typography>
-                        The third challenge was to design a landing page, which raised the question: what should the main focus be?
-                        Referring back to my first challenge,
-                        I chose to redesign the landing page for the productivity project I had previously worked on.
-                        During my research, I realized that an effective landing page should extend the core product message,
-                        something I hadn’t fully utilized in my original design.
-                        For this redesign, I focused on adding more details,
-                        such as highlighting the key features of the productivity web app and incorporating a more prominent call-to-action button to drive engagement.
+                        The third challenge focused on designing a landing page, prompting me to define a clear and compelling focal point. Building on my first challenge, I chose to redesign the landing page for the same productivity project to create a more cohesive product experience.
+
+                        Through research, I recognised that an effective landing page should clearly communicate and extend the product’s core message—an area I had not fully explored in my original design. In this iteration, I focused on better showcasing the web app’s key features and strengthening the call-to-action to guide user engagement more effectively.
+
+                        This redesign allowed me to refine not just the visual layout, but also how the product story is presented to users.
                         <div className='image-content-pg2'>
                             <div class='item-pg2'>
                                 <img src={require('../assets/Landing-page-old.png')} alt="Landing Page Old Version" />
@@ -156,15 +148,11 @@ function UITwo() {
                         <Typography variant="h6" gutterBottom >
                             Redesign: Landing Screen Design about Productivity
                         </Typography>
-                        For the fourth challenge, I was tasked with designing a calculation element.
-                        Instead of creating a traditional calculator, I opted to design a Pomodoro timer,
-                        a time management tool that enhances focus, reduces distractions, and boosts productivity.
-                        This choice aligns with the productivity project I previously worked on.
-                        Through my research, I discovered that calculation elements can include interactive components
-                        and data visualization features beyond just calculators. A Pomodoro timer fits this concept well,
-                        as it allows users to input their desired focus duration. The system then saves and calculates the
-                        time spent and the number of Pomodoros completed, presenting this data in a report on a separate page of
-                        the web app.
+                        The fourth challenge involved designing a calculation-based element. Rather than creating a traditional calculator, I chose to design a Pomodoro timer—a time management tool that supports focus, reduces distractions, and improves productivity.
+
+                        This direction aligns with my broader productivity project, allowing for a more cohesive design approach. Through research, I found that calculation elements can extend beyond basic numerical input to include interactive components and data-driven features.
+
+                        The Pomodoro timer reflects this by enabling users to set their desired focus duration, while the system tracks time spent and the number of completed sessions. This data is then summarised and presented in a report on a separate page, providing users with a clearer view of their productivity patterns over time.
                         <div className='image-content-pg2'>
                             <div class='item-pg2'>
                                 <img src={require('../assets/Timer-old.png')} alt="Landing Page Old Version" />

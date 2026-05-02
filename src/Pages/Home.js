@@ -17,6 +17,7 @@ function Home() {
             <p>Hi, I’m Janice 👋</p>
             <h1>Productivity & Systems Coordinator</h1>
             <p>Aligning workflows, improving efficiency, and supporting better day-to-day decisions.</p>
+            <p id='coming-soon'>🚧 This space is evolving — more projects and case studies coming soon.</p>
             <Button id= "knowmebutton" onClick={() => navigate("/Aboutme")}>More about me → </Button>
           </div>
 
@@ -83,7 +84,6 @@ function Home() {
             </div>
           </div>
         </div>        
-        <p className='coming-soon'>🚧 This space is evolving — more projects and case studies coming soon.</p>
       </body>
     </div>
 
