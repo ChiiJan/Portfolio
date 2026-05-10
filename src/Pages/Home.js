@@ -76,7 +76,7 @@ function Home() {
                 imgsrc={require('../assets/title-image.png')}
                 imgalt={"Login"}
                 title={"My Figma Journey"}
-                description={"I began exploring UI/UX through Figma, driven by a passion for design. My internship deepened my knowledge, especially in features like auto layout. To enhance my skills, I committed to a month-long Figma and UI design challenge, with weekly updates on my progress."}
+                description={"I first explored UI/UX through Figma, driven by an interest in design and user experiences. During my internship, I further developed my understanding of UI/UX concepts and tools, including features such as auto layout."}
                 location={"/UIPageTwo"}
                 tagName={"UI/UX"}
               />

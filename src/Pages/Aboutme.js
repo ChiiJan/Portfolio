@@ -27,7 +27,6 @@ function Aboutme() {
         </div>
     </div>
     <div className = "about-me-right">
-      <h1>About me</h1>
       <div className="right-content">
             <p><span id="span"><WorkIcon></WorkIcon> Currently</span> </p>
             <p>Admin and Support Programme (Contract) @ Health Promotion Board</p>
@@ -35,7 +34,10 @@ function Aboutme() {
         </div>
         <div className="right-content">
             <p><span id="span"><Face3Icon /> What I do </span> </p>
-            <p>Hi! I’m Janice — an Information Systems graduate with an interest in administrative support, operations, and data reporting. I enjoy keeping things organised, improving workflows, and supporting smoother day-to-day decisions. I’m currently looking for opportunities where I can contribute to operations and continue growing professionally.</p>
+            <p>Hi! I’m Janice 👋 </p>
+            <p>I’m an Information Systems graduate from NUS with interests in administrative operations, UI/UX, and improving workflows through thoughtful systems and design. </p>
+            <p>I enjoy working behind the scenes to keep things organized, efficient, and running smoothly — whether through operations support, data reporting, or exploring ways to improve everyday processes and user experiences.</p>
+            <p>I’m naturally curious and hands-on, and I enjoy turning ideas into projects while continuously learning along the way. This portfolio is a space where I document my work, experiments, and creative explorations as I continue growing both professionally and personally ✨</p>
         </div>
         <div className="right-content">
             <p><span id="span"><AutoAwesomeIcon /> Beyond Work</span> </p>
